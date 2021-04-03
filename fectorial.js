@@ -11,3 +11,12 @@ const fectorial=(n)=>{
     return answer
 }
 console.log(fectorial(10))
+
+
+const recursionFactorial = (num)=>{
+    if (num === 2){
+        return 2
+    }
+    return num * recursionFactorial(num -1)
+}
+console.log(recursionFactorial(4))
